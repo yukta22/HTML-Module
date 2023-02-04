@@ -1,0 +1,41 @@
+.center{
+  text-align: center;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  justify-content: right;
+  margin-right:50px;
+  padding-right: 360px;
+  text-align: justify;
+}
+
+.tp{
+  text-align: justify;
+}
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+h2{
+  color:#36486b;
+}
+
