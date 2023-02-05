@@ -1,4 +1,4 @@
-.center{
+.center {
   text-align: center;
 }
 
@@ -15,17 +15,20 @@
 
 .left {
   left: 0;
+  /* overflow: hidden; */
+  margin-left: 50px;
 }
 
 .right {
   right: 0;
   justify-content: right;
-  margin-right:50px;
-  padding-right: 360px;
+  margin-right: 120px;
+  padding-right: auto;
   text-align: justify;
+  /* overflow: hidden; */
 }
 
-.tp{
+.tp {
   text-align: justify;
 }
 
@@ -35,7 +38,10 @@
   left: 10%;
 }
 
-h2{
-  color:#36486b;
+h2 {
+  color: #36486b;
 }
 
+.split::-webkit-scrollbar {
+  display: none;
+}
